@@ -2,7 +2,7 @@ public class flattenBT {
     // Thought:(put all left nodes after right nodes).
     // 1.find the parent node of the most left leaf
     // 2.find the most right child node of the node from step1.
-    // 3.add all right nodes after the node from step 2.
+    // 3.add the left node after the node from step 2.
     public void flatten(TreeNode root) {
         // checke if root node is null
         // yes, terminal it
